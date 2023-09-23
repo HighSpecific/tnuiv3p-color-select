@@ -161,7 +161,7 @@ export const useColorSelect = (
         debugWarn(err)
       })
     }
-    previewColor.value = currentSelectColor.value
+    previewColor.value = colorValue.value
     previewDarkBg.value = useDarkBg.value
     closeSelectColorPicker()
   }
