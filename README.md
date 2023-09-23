@@ -15,7 +15,7 @@ npm i tnuiv3p-tn-color-select
 ## 组件位置
 
 ```typescript
-import TnSelect from 'tnuiv3p-tn-color-select/index.vue'
+import TnColorSelect from 'tnuiv3p-tn-color-select/index.vue'
 ```
 
 ## 平台差异说明
@@ -61,8 +61,6 @@ const color = ref('')
 | size                    | 颜色预览框的尺寸大小，可以使用可选值和指定的尺寸大小 | String  | -         | `sm` 、 `lg` 、 `xl` |
 | disabled                | 禁用颜色选择器                                       | Boolean | `false`   | `true`               |
 | validate-event          | 值发生修改时是否触发表单验证                         | Boolean | `true`    | `false`              |
-
-
 
 ### Emits
 
